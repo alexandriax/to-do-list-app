@@ -24,3 +24,7 @@ function newItem(){
   crossOutButton.on("click", function() {
     $(this).parent().addClass("delete");
   });
+
+  $('#list').sortable();
+
+}
