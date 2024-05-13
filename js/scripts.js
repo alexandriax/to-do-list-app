@@ -28,3 +28,5 @@ function newItem(){
   $('#list').sortable();
 
 }
+
+$('button').click(newItem);
